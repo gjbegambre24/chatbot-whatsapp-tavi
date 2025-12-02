@@ -2,7 +2,7 @@ from fastapi import FastAPI, Request
 
 app = FastAPI()
 
-VERIFY_TOKEN = "CAMBIA_ESTE_TOKEN"  # usa el mismo token que configures en Meta
+VERIFY_TOKEN = "TAVI_TOKEN_123"  # usa el mismo token que configures en Meta
 
 @app.get("/")
 async def root():
